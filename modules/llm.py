@@ -1,19 +1,19 @@
 """
 LLM module.
 
-Handles communication with the Groq chat completion API.
+Handles communication with the OpenAI chat completion API.
 """
 
-from groq import Groq
+from openai import OpenAI
 
-from config import GROQ_API_KEY, LLM_MODEL, LLM_TEMPERATURE
+from config import OPENAI_API_KEY, LLM_MODEL, LLM_TEMPERATURE
 
-_client = Groq(api_key=GROQ_API_KEY)
+_client = OpenAI(api_key=OPENAI_API_KEY)
 
 
 def generate_answer(system_prompt: str, user_prompt: str) -> str:
     """
-    Generate an answer from the LLM.
+    Generate an answer using OpenAI.
     """
     try:
         response = _client.chat.completions.create(

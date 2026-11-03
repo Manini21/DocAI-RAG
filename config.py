@@ -17,9 +17,9 @@ load_dotenv()
 # --------------------------------------------------------------------------
 # API Configuration
 # --------------------------------------------------------------------------
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-
-LLM_MODEL = "openai/gpt-oss-120b"
+# API Configuration
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+LLM_MODEL = "gpt-4o-mini"
 LLM_TEMPERATURE = 0.2
 # --------------------------------------------------------------------------
 # Model Configuration

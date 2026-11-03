@@ -48,7 +48,7 @@ The overall idea is to retrieve first and generate afterwards. That's the RAG pa
 | Sentence Transformers | Local text embeddings |
 | ChromaDB | Vector database |
 | Groq | LLM inference |
-| Llama 3.3 70B | Answer generation |
+| OpenAI GPT-OSS 120B (via Groq) | Answer generation |
 | LangChain Text Splitters | Text chunking |
 
 ## 🧠 Things I learned along the way

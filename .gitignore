@@ -1,0 +1,27 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Vector store data (regenerated at runtime)
+chroma_db/*
+!chroma_db/.gitkeep
+
+# Uploaded PDFs (user data, should not be committed)
+data/uploaded_pdfs/*
+!data/uploaded_pdfs/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+

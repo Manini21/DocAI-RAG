@@ -19,13 +19,13 @@ load_dotenv()
 # --------------------------------------------------------------------------
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
-LLM_MODEL = "llama-3.3-70b-versatile"
+LLM_MODEL = "openai/gpt-oss-120b"
 LLM_TEMPERATURE = 0.2
 # --------------------------------------------------------------------------
 # Model Configuration
 # --------------------------------------------------------------------------
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
-LLM_MODEL = "llama-3.3-70b-versatile"
+LLM_MODEL = "openai/gpt-oss-120b"
 LLM_TEMPERATURE: float = 0.2
 
 # --------------------------------------------------------------------------
